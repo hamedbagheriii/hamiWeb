@@ -1,0 +1,461 @@
+@font-face {
+    font-family: "samin-bold";
+    src: url("font/Samim-Bold.woff");
+}
+
+*{
+    font-family: "samin-bold";
+}
+
+
+/* --------====start style project====---------- */
+
+/* ---------------===navbar===------------------ */
+.navbar{
+    direction: rtl;
+    background-color: rgba(80, 74, 74, 0.075);
+    backdrop-filter: blur(5rem);
+}
+
+.nav-link:not(.active){
+    transition: all .4s ease-in-out;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.434));
+}
+.nav-link:hover:not(.active){
+    text-shadow: 1px 1px 15px rgba(255, 49, 49, 0.649);
+    color: rgb(251, 42, 42);
+}
+
+
+
+
+
+/* ---------------===section 1===------------------ */
+
+.logo{
+    width:250px;
+    object-fit: cover;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.398);
+    transition: all 1.2s ease-in-out;
+}
+.logo:hover{
+transform: rotateZ(360deg);
+}
+
+.card-hinfo{
+    direction: rtl;
+    background-color: rgba(80, 74, 74, 0.075);
+    backdrop-filter: blur(5rem);
+}
+
+.card-text{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+/* ---------------===section 2===------------------ */
+
+.section2{
+    background: url("img/code-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-hCode{
+    direction: rtl;
+    background-color: rgba(255, 255, 255, 0.267);
+    backdrop-filter: blur(1rem);
+}
+
+.card-text-info{
+    line-height: 40px;
+}
+
+.circleNotif{
+    padding: 12PX;
+}
+
+/* ---------------===section 3===------------------ */
+
+.section3{
+    direction: rtl;
+    background-color: rgba(80, 74, 74, 0.075);
+    backdrop-filter: blur(5rem);
+    margin-bottom: 60px;
+}
+
+.card-LCode{
+    direction: rtl;
+    background: #fff;
+}
+
+.liner{
+    width: 30%;
+    height: 5px;
+}
+
+.text-about-Love{
+    font-size: 14px;
+    direction: rtl;
+    color: rgb(160, 156, 156);
+}
+
+.liner2{
+    background-color: red;
+    width: 2px;
+    height:50px;
+}
+
+.card-item{
+    width: 200px;
+}
+
+/* ---------------===section 4===------------------ */
+
+.section4{
+    background: url("img/matrix-code.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.card-ACH-Code{
+    direction: rtl;
+    background-color: rgba(255, 255, 255, 0.726);
+    backdrop-filter: blur(1rem);
+    height: 200px;
+    width:90%;
+}
+
+@media screen and (min-width:720px) {
+    
+    .card-ACH-Code{
+        width:50%;
+    }
+}
+
+.Ach-Icon{
+    font-size: 35px;
+}
+
+/* ---------------===section 5===------------------ */
+
+.section5{
+    direction: rtl;
+    background-color: rgba(80, 74, 74, 0.075);
+    backdrop-filter: blur(5rem);
+    margin-top: 60px;
+    width: 90%;
+}
+
+.liner4{
+    width: 5px;
+    height: 90%;
+}
+
+.card-LineCode{
+    height: 800px;
+}
+
+.liner4 span{
+    margin-left: 2px;
+}
+
+.boxLiner1{
+    top: 20%;
+}
+
+.boxLiner2{
+    top: 50%;
+}
+
+.boxLiner3{
+    top: 85%;
+}
+
+.textYears{
+    font-size: 13px;
+}
+
+
+/* ---------------===section 6===------------------ */
+
+.section6{
+    direction: rtl;
+    background-color: rgba(80, 74, 74, 0.075);
+    backdrop-filter: blur(5rem);
+    margin-top: 55px;
+}
+
+.liner5{
+    width: 90%;
+    height: 5px;
+}
+
+.cardLoad{
+    background-color: rgba(80, 74, 74, 0.075);
+    backdrop-filter: blur(1rem);
+}
+
+
+/* ---------------===section 7===------------------ */
+
+.Survey{
+    width:100%;
+}
+
+@media screen and (min-width:1000px) {
+    
+    .Survey{
+        width:50%;
+    }
+
+}
+
+.cardShadow{
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.453);
+}
+
+.surveyShadow{
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.553);
+}
+
+
+/* ---------------===section 8===------------------ */
+
+.card-project-Code{
+    background-color: rgb(255, 255, 255);
+    width: 30%; 
+    height: 40%;
+}
+
+.text-project{
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.card-project-Code{
+    width:100%;
+}
+
+@media screen and (min-width:720px) {
+    
+    .card-project-Code{
+        width:40%;
+    }
+
+}
+@media screen and (min-width:1000px) {
+    
+    .card-project-Code{
+        width:22%;
+    }
+
+}
+
+.btn-my-project{
+    width: 130px;
+    height: 40px;
+}
+
+.card-project{
+    cursor: pointer;
+}
+
+
+/* ---------------===section : connect===------------------ */
+
+.fullName , .phone , .email , .textBody{
+    font-size: 14px;
+}
+
+.connect{
+    direction: rtl;
+    background-color: rgba(80, 74, 74, 0.075);
+    backdrop-filter: blur(5rem);
+}
+
+.inputStyle{
+    color: rgba(255, 255, 255, 0.812);
+}
+.inputStyle::placeholder{
+    color: rgba(255, 255, 255, 0.812);
+}
+
+.btnConnect{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    
+    .btnConnect{
+        width:50%;
+    }
+
+}
+
+
+@media screen and (min-width:1000px) {
+    
+    .btnConnect{
+        width:25%;
+    }
+
+}
+
+.liner6{
+    width: 60%;
+    height: 5px;
+}
+
+
+/* ---------------===section : footer===------------------ */
+
+.card-footer-Code{
+    width:90%;
+}
+
+/* ---------------===hovet color===------------------ */
+
+/* white */
+.hoverItemW{
+    transition: all 0.25s ease-in-out;
+}
+.hoverItemW:hover{
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.557));
+}
+
+/* dark */
+.hoverItemda{
+    transition: all 0.25s ease-in-out;
+}
+.hoverItemda:hover{
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.453));
+}
+
+/* danger */
+.hoverItemdan{
+    transition: all 0.25s ease-in-out;
+}
+.hoverItemdan:hover{
+    filter: drop-shadow(5px 5px 5px rgba(255, 82, 82, 0.453));
+}
+
+
+.top{
+    position: sticky;
+    top: 92%;
+    width: 40px;
+    height: 40px;
+    z-index: 2000;
+    left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------=== ui style ===------------------ */
+
+.spinner {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+  }
+  
+  .spinner div {
+    position: absolute;
+    width: 50%;
+    height: 150%;
+    background: #f12d2d;
+    transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+    animation: spinner-fzua35 1s calc(var(--delay) * 1s) infinite ease;
+  }
+  
+  .spinner div:nth-child(1) {
+    --delay: 0.1;
+    --rotation: 36;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(2) {
+    --delay: 0.2;
+    --rotation: 72;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(3) {
+    --delay: 0.3;
+    --rotation: 108;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(4) {
+    --delay: 0.4;
+    --rotation: 144;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(5) {
+    --delay: 0.5;
+    --rotation: 180;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(6) {
+    --delay: 0.6;
+    --rotation: 216;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(7) {
+    --delay: 0.7;
+    --rotation: 252;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(8) {
+    --delay: 0.8;
+    --rotation: 288;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(9) {
+    --delay: 0.9;
+    --rotation: 324;
+    --translation: 150;
+  }
+  
+  .spinner div:nth-child(10) {
+    --delay: 1;
+    --rotation: 360;
+    --translation: 150;
+  }
+  
+  @keyframes spinner-fzua35 {
+    0%, 10%, 20%, 30%, 50%, 60%, 70%, 80%, 90%, 100% {
+      transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
+    }
+  
+    50% {
+      transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1.5%));
+    }
+  }
